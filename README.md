@@ -53,7 +53,11 @@ You can also pass molecular files in formats like `.sdf`, `.mol`, `.mol2`, `.pdb
 
 ```bash
 python3 MolecularDescriptor.py 'compound.sdf'
+```
+```bash
 python3 MolecularDescriptor.py 'compound.mol2'
+```
+```bash
 python3 MolecularDescriptor.py 'compound.pdb'
 ```
 
@@ -62,7 +66,11 @@ If you want to write the results to a CSV file, use the `--write` flag:
 
 ```bash
 python3 MolecularDescriptor.py 'SMILES_STRING' --write
+```
+```bash
 python3 MolecularDescriptor.py 'compound.sdf' --write
+```
+```bash
 python3 MolecularDescriptor.py 'compound.mol2' --write
 ```
 
