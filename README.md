@@ -91,9 +91,9 @@ The output will display a table with the following molecular descriptors for the
 ### Example Table Output:
 ```
 +---------------------------+------------------+
-| Descriptor                | Value            |
+| Descriptor                 | Value            |
 +---------------------------+------------------+
-| SMILES                    | CC(C)CC(C(=O)O)N |
+| SMILES                     | CC(C)CC(C(=O)O)N |
 | Molecular Weight           | 173.2            |
 | LogP                       | 1.45             |
 | TPSA                       | 48.2             |
@@ -113,6 +113,4 @@ The output will display a table with the following molecular descriptors for the
 ```
 
 This table will be displayed in the terminal when you run the script. If the `--write` flag is used, it will also be saved to a CSV file.
-```
 
-Feel free to copy and use this complete Markdown content for your `README.md` file!
