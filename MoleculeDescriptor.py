@@ -5,28 +5,6 @@ import pandas as pd
 import argparse
 from tabulate import tabulate
 
-'''
-Factors considered:
-1.Molecular weight
-2.LogP
-3.TPSA
-4.QED
-5.Number of H bond donors
-6.Number of H bond acceptors
-7.Number of rotatable bonds
-8.Molar refractivity
-9.Heavy atom count
-10.PAINS
-11.Brenks
-12.NIH
-13.Fractions of sp3 carbonds
-14.Lipinski's violations
-15.Veber's criteria
-16.Pains
-17.Brenks
-18.NIH
-'''
-
 def read_molecule(m:str):
     if not m.endswith(('.sdf','mol','mol2','.pdb','.smi','.pdb')):
         mol=Chem.MolFromSmiles(m)
