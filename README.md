@@ -68,23 +68,6 @@ python3 MolecularDescriptor.py 'compound.mol2' --write
 
 This will save the compound details in a CSV file (`compound_description.csv`).
 
-### Example Command Usage:
-
-- **SMILES String Input:**
-  ```bash
-  python3 MolecularDescriptor.py 'CC(C)CC(C(=O)O)N'
-  ```
-
-- **SDF File Input:**
-  ```bash
-  python3 MolecularDescriptor.py 'compound.sdf'
-  ```
-
-- **Write to CSV:**
-  ```bash
-  python3 MolecularDescriptor.py 'CC(C)CC(C(=O)O)N' --write
-  ```
-
 ## Output:
 The output will display a table with the following molecular descriptors for the input compound:
 
