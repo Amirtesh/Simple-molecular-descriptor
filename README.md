@@ -1,4 +1,3 @@
-```markdown
 # Molecular Descriptor Script
 
 This script calculates various molecular descriptors and provides information about a given compound based on its structure. It supports multiple file formats, including SMILES strings, MOL, SDF, MOL2, and PDB files. The descriptors include molecular weight, LogP, TPSA, QED, hydrogen bond donors and acceptors, rotatable bonds, and alerts for PAINS, Brenk's, and NIH.
