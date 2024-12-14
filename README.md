@@ -34,7 +34,7 @@ pip install rdkit pandas tabulate
 
 ## Usage:
 
-To run the script, you need to pass either a SMILES string or a molecular file (in formats like `.mol`, `.sdf`, `.mol2`, `.pdb`, or `.smiles`).
+First, download the python script and place it in the directory in which you want to run it.To run the script, you need to pass either a SMILES string or a molecular file (in formats like `.mol`, `.sdf`, `.mol2`, `.pdb`, or `.smiles`).
 
 ### Running the Script with a SMILES String:
 To get the molecular descriptor details of a compound from its SMILES string, use the following command:
